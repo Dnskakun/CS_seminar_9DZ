@@ -39,7 +39,10 @@ int CalcAccermanFunc(int m, int n)
     {
         return CalcAccermanFunc(m - 1, CalcAccermanFunc(m, n - 1));
     }
-    else return n + 1;
+    else
+    {
+        return n + 1;
+    }
 }
 
 
